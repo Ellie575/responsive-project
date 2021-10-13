@@ -19,15 +19,36 @@ h1 {
   font-size: 96px;
 }
 
+h2 {
+  font-size: 46px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border-radius: 10px;
+}
+
 .hero {
   text-align: center;
   padding: 60px;
   background: var(--primary-color);
 }
 
-.contact-link {
+.navigation-link {
   display: flex;
   justify-content: center;
+}
+
+.weather-app-image {
+  width: 550px;
 }
 
 .insta-icon {
