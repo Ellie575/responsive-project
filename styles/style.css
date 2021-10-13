@@ -1,8 +1,35 @@
+:root {
+  --primary-color: cornsilk;
+  --secondary-color: pink;
+  --heading-font-family: "Lora", serif;
+}
+
 body {
-  background: pink;
+  background: var(--secondary-color);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
 }
 
 h1 {
-  font-family: "Lora", serif;
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px;
+  background: var(--primary-color);
+}
+
+.contact-link {
+  display: flex;
+  justify-content: center;
+}
+
+.insta-icon {
   text-align: center;
 }
