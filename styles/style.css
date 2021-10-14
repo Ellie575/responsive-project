@@ -1,6 +1,6 @@
 :root {
   --primary-color: cornsilk;
-  --secondary-color: pink;
+  --secondary-color: #ffdff7;
   --heading-font-family: "Lora", serif;
 }
 
@@ -55,32 +55,33 @@ img {
   text-align: center;
 }
 
-.about-section {
-  padding: 160px 20px;
-}
-
-.about-section h1 {
+.content-section h1 {
   font-size: 64px;
   text-align: left;
 }
 
-.about-section h2 {
+.content-section h2 {
   font-size: 30px;
   text-align: left;
 }
 
-.about-section p {
+.content-section p {
   font-size: 16px;
 }
 
-.about-section {
+.content-section {
   display: block;
   justify-content: center;
+  padding: 160px 20px;
 }
 
 @media (max-width: 990px) {
   h1,
   h2 {
     font-size: 40px;
+  }
+
+  img {
+    display: none;
   }
 }
