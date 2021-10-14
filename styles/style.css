@@ -55,6 +55,29 @@ img {
   text-align: center;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  text-align: left;
+}
+
+.about-section h2 {
+  font-size: 30px;
+  text-align: left;
+}
+
+.about-section p {
+  font-size: 16px;
+}
+
+.about-section {
+  display: block;
+  justify-content: center;
+}
+
 @media (max-width: 990px) {
   h1,
   h2 {
