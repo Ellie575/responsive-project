@@ -75,6 +75,11 @@ img {
   padding: 160px 20px;
 }
 
+.contact-content h1 {
+  padding: 160px 20px;
+  font-size: 64px;
+}
+
 @media (max-width: 990px) {
   h1,
   h2 {
