@@ -1,6 +1,7 @@
 :root {
-  --primary-color: cornsilk;
-  --secondary-color: #ffdff7;
+  --primary-color: #dfd3c3;
+  --secondary-color: #f0ece2;
+  --tertiary-color: hotpink;
   --heading-font-family: "Lora", serif;
   --subheading-font-family: "Quicksand", sans-serif;
   --body-font-family: "Andada Pro", serif;
@@ -45,7 +46,7 @@ img {
 }
 
 .contact-box {
-  background: ivory;
+  background: var(--primary-color);
   padding: 50px 50px;
   border-radius: 10px;
   margin: 30px;
@@ -91,13 +92,13 @@ img {
 }
 
 .contact-content h1 {
-  padding: 160px 20px;
+  padding: 80px 20px;
   font-size: 64px;
 }
 
 .github-link a {
   text-decoration: none;
-  color: hotpink;
+  color: #685454;
   transition: all 150ms ease-in-out;
 }
 
@@ -107,7 +108,7 @@ img {
 
 .social-links a {
   text-decoration: none;
-  color: hotpink;
+  color: var(--tertiary-color);
   transition: all 150ms ease-in-out;
 }
 
