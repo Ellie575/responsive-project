@@ -2,6 +2,7 @@
   --primary-color: #dfd3c3;
   --secondary-color: #f0ece2;
   --tertiary-color: hotpink;
+  --btn-color: #685454;
   --heading-font-family: "Lora", serif;
   --subheading-font-family: "Quicksand", sans-serif;
   --body-font-family: "Andada Pro", serif;
@@ -45,6 +46,23 @@ img {
   border-radius: 20px;
 }
 
+.btn-branding {
+  background: var(--btn-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  width: 250px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-branding:hover {
+  background: white;
+  border: 1px solid var(--btn-color);
+  color: var(--btn-color);
+}
 .contact-box {
   background: var(--primary-color);
   padding: 80px 50px;
