@@ -42,7 +42,7 @@ a {
 }
 
 img {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .contact-box {
@@ -67,8 +67,10 @@ img {
   width: 550px;
 }
 
-.insta-icon {
-  text-align: center;
+.profile-pic {
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .content-section h1 {
