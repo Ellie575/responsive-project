@@ -95,6 +95,16 @@ img {
   font-size: 64px;
 }
 
+.github-link a {
+  text-decoration: none;
+  color: hotpink;
+  transition: all 150ms ease-in-out;
+}
+
+.github-link a:hover {
+  color: var(--primary-color);
+}
+
 .social-links a {
   text-decoration: none;
   color: hotpink;
