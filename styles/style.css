@@ -44,6 +44,7 @@ a {
 
 img {
   border-radius: 20px;
+  border: 10px solid white;
 }
 
 .btn-branding {
@@ -150,6 +151,10 @@ img {
   }
 
   img {
+    display: none;
+  }
+
+  .profile-pic {
     display: none;
   }
 }
