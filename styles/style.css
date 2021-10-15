@@ -2,6 +2,8 @@
   --primary-color: cornsilk;
   --secondary-color: #ffdff7;
   --heading-font-family: "Lora", serif;
+  --subheading-font-family: "Quicksand", sans-serif;
+  --body-font-family: "Andada Pro", serif;
 }
 
 body {
@@ -21,10 +23,16 @@ h1 {
 
 h2 {
   font-size: 46px;
+  font-family: var(--subheading-font-family);
+}
+
+h3 {
+  font-family: var(--subheading-font-family);
 }
 
 p {
   font-size: 16px;
+  font-family: var(--body-font-family);
 }
 
 a {
