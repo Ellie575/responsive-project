@@ -38,7 +38,6 @@ p {
 }
 
 a {
-  display: flex;
   justify-content: center;
 }
 
@@ -64,9 +63,17 @@ img {
   border: 1px solid var(--btn-color);
   color: var(--btn-color);
 }
+
+.go-to-projects-btn {
+  display: flex;
+}
+
+.contact-me-btn {
+  display: flex;
+}
+
 .contact-box {
-  background: var(--primary-color);
-  padding: 80px 50px;
+  padding: 0 50px;
   border-radius: 10px;
   margin: 30px;
 }
@@ -113,7 +120,7 @@ img {
 }
 
 .contact-content h1 {
-  margin: 200px 20px 120px 20px;
+  margin: 200px 20px 0 20px;
   font-size: 64px;
 }
 
@@ -128,14 +135,8 @@ img {
   color: var(--tertiary-color);
 }
 
-.social-links a {
-  text-decoration: none;
-  color: var(--tertiary-color);
-  transition: all 150ms ease-in-out;
-}
-
-.social-links a:hover {
-  color: #27296d;
+.linked-in a {
+  display: inline-block;
 }
 
 .row {
