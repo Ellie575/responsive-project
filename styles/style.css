@@ -7,7 +7,7 @@
   );
   --secondary-color: #fafafa;
   --tertiary-color: #4f81c7;
-  --btn-color: #a2a8d3;
+  --btn-color: #27296d;
   --heading-font-family: "Lora", serif;
   --subheading-font-family: "Quicksand", sans-serif;
   --body-font-family: "Andada Pro", serif;
@@ -131,7 +131,7 @@ img {
 
 .github-link a {
   text-decoration: none;
-  color: #27296d;
+  color: var(--btn-color);
   transition: all 150ms ease-in-out;
   display: inline-block;
 }
