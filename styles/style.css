@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #dfd3c3;
-  --secondary-color: #f0ece2;
-  --tertiary-color: hotpink;
-  --btn-color: #685454;
+  --primary-color: #e7eaf6;
+  --secondary-color: #fafafa;
+  --tertiary-color: #4f81c7;
+  --btn-color: #a2a8d3;
   --heading-font-family: "Lora", serif;
   --subheading-font-family: "Quicksand", sans-serif;
   --body-font-family: "Andada Pro", serif;
@@ -109,22 +109,23 @@ img {
 .content-section {
   display: block;
   justify-content: center;
-  padding: 160px 20px;
+  margin: 120px 20px;
 }
 
 .contact-content h1 {
-  padding: 140px 20px 40px 20px;
+  margin: 200px 20px 120px 20px;
   font-size: 64px;
 }
 
 .github-link a {
   text-decoration: none;
-  color: #685454;
+  color: #27296d;
   transition: all 150ms ease-in-out;
+  display: inline-block;
 }
 
 .github-link a:hover {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 
 .social-links a {
@@ -134,7 +135,13 @@ img {
 }
 
 .social-links a:hover {
-  color: var(--primary-color);
+  color: #27296d;
+}
+
+.row {
+  background-color: white;
+  border-radius: 10px;
+  padding: 50px;
 }
 
 @media (max-width: 700px) {
