@@ -87,6 +87,8 @@ img {
   text-align: center;
   padding: 140px 0 80px 0;
   background: var(--primary-color);
+  background-image: url("/images/Sea.jpg");
+  background-size: 1400px 800px;
 }
 
 .navigation-link {
