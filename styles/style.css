@@ -100,12 +100,6 @@ img {
   width: 550px;
 }
 
-.profile-pic {
-  max-width: 300px;
-  display: flex;
-  justify-content: center;
-}
-
 .content-section h1 {
   font-size: 64px;
   text-align: left;
